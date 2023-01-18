@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+
+      a {
+        color: #004c3f;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+
+      .header {
+        background-color: #004c3f;
+      }
+
+      .white-bg {
+        background-color: #ffffff;
+      }
+
+      .section-padding {
+        padding-left: 30px padding-right: 30px;
+      }
+
+      .link-color {
+        color: #004c3f;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+
+      .on-top {
+        z-index: 3;
+      }
+
+      .icons-width {
+        max-width: 280px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-include path="./components/header.mjml" />
+    <mj-section css-class="top-text-section white-bg">
+      <mj-column padding="20px 0px 10px 0px">
+        <mj-text css-class="header-title" font-size="58px" color="#004c3f" font-weight="bold">
+          What's New
+        </mj-text>
+        <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">
+          July 18, 2022
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/3-lines.mjml" />
+    <mj-section css-class="2-column-section white-bg" padding-bottom="30px">
+      <mj-column>
+        <mj-image padding="0px 0px 25px 10px" src="https://i.ibb.co/dQXtgcj/image.jpg" />
+      </mj-column>
+      <mj-column css-class="text-decoration">
+        <mj-text font-size="24px" font-weight="bold" color="#004c3f" line-height="1.4" padding-top="0px">
+          Find more ways to sell with pre-orders
+        </mj-text>
+        <mj-text font-size="18px" font-weight="normal" color="#004c3f" line-height="1.4">
+          We've gone and made selling even easier, with pre-orders. Give your customers the ability to pay now, pay a deposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products.
+        </mj-text>
+        <mj-text css-class="link-color" font-size="16px" line-height="1.4">
+          <a href="https://shopify.com">Learn More</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/3-lines.mjml" />
+    <mj-section css-class="app-text-section white-bg">
+      <mj-column padding="0px 0px 0px 0px">
+        <mj-text align="center" css-class="header-title" line-height="1.4" font-size="20px" color="black" font-weight="bold">
+          Running a business like yours isn't a desk job.
+          Keep it from becoming one with the Shopify app.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="app-imgs-section white-bg">
+      <mj-group>
+        <mj-column padding="0px 5px 10px 0px">
+          <mj-image align="right" width="150px" padding="0px" src="https://i.ibb.co/jDPdkdT/appstore.png" href="https://www.apple.com/app-store/" alt="apple logo" />
+        </mj-column>
+        <mj-column padding="0px 0px 10px 5px">
+          <mj-image align="left"  width="150px" padding="0px" src="https://i.ibb.co/ZYWXxNr/android.png" href="https://play.google.com/store/games?hl=en_US&gl=US&pli=1" alt="google play logo" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+     <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

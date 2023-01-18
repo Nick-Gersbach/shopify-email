@@ -1,0 +1,37 @@
+<mj-wrapper background-color="#ffffff" css-class="footer">
+    <mj-section padding="0px" background-color="#ffffff" css-class="social-media-icons-section
+    ">
+      <mj-group>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" align="right" width="27px" height="auto" src="https://i.ibb.co/BGWmXLM/fb.png" href="https://www.facebook.com/" alt="facebook logo" />
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" width="27px" height="auto" src="https://i.ibb.co/bsvbCVk/tw.png" href="https://www.twitter.com/" alt="twitter logo" />
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" width="27px" height="auto" src="https://i.ibb.co/j8rGrC9/insta.png" href="https://www.instagram.com/" alt="instagram logo" />
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" width="27px" height="auto" src="https://i.ibb.co/rZ77bYT/snap.png" href="https://www.snapchat.com/" alt="snapchat logo" />
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" width="27px" height="auto" src="https://i.ibb.co/Z8BgTpQ/in.png" href="https://www.linkedin.com/" alt="linkedin logo" />
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" width="27px" height="auto" src="https://i.ibb.co/0c34sNr/pin.png" href="https://www.pinterest.com/" alt="pinterest logo" />
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image padding="0 10px" width="27px" height="auto" src="https://i.ibb.co/FbGYqbb/yt.png" href="https://www.youtube.com/" alt="youtube logo" />
+        </mj-column>
+          </mj-group>
+    </mj-section>
+    <mj-section css-class="white-bg" padding-top="30px">
+    <mj-column>
+      <mj-text align="center">&copy;
+        Shopify, 151 O'Connor Street, Ground floor, Ottawa ON, K2P 2L8</mj-text>
+         <mj-text align="center">
+        <a href="#">Unsubscribe</a> | <a href="#">Manage your email preferences</a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

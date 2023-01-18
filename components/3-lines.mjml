@@ -1,0 +1,5 @@
+<mj-section css-class="top-line-section white-bg">
+      <mj-column>
+        <mj-image padding="0px" src="https://i.ibb.co/n1kQVnM/3-lines.png" />
+      </mj-column>
+    </mj-section>
